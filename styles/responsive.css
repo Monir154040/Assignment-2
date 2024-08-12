@@ -1,0 +1,232 @@
+
+@media screen and (max-width: 576px) {
+    .banner{
+        width: 100%;
+        margin: 0px auto;
+        
+    }
+    .menu-item{
+        display: none;
+    }
+    .fitness{
+        margin-left: 120px;
+    }
+    .footer-fitness{
+        margin-left: 0px;
+        color: #E6533C;
+        font-weight: 600;
+        font-size: 3rem;
+        font-style: italic;
+        margin-top: 80px; 
+    }
+
+    .navbar{
+        margin-left: 0px;
+    }
+    .hamburg-menu{
+        display: block;
+        margin-left: 0px;
+    }
+
+    .li a{
+        margin-left: 0px;
+    }
+    .box{
+        margin-left: 30px;
+    }
+    .movement{
+        margin-left: 50px;
+    }
+    .mentor-advice{
+        margin-left: 0px;
+    }
+    .btn-primary {
+        margin-left: 0px;
+    }
+    
+    .first-part{
+        height: 30%;
+        width: 100%;
+        margin: 0px;
+        flex-direction: column;
+    }
+    .section-title{
+        flex-direction: column;
+        margin-left: 0px;
+        width:50%;
+    }  
+    .body-title{
+        width: 100%;
+        font-size:1.5rem;
+    }
+    .body-description{
+        padding-top: 5px;
+        width: 100%; 
+        margin-left: 0px;    
+    }
+    .body-images-2{
+        flex-direction: column;
+        margin-left: 0px;
+        width: 100%;
+        padding-top: 150px;
+    }
+    .workout-video{
+        height: 60px;
+        width:160px;
+        position: absolute;
+        top: 35%;
+        right: 20%;
+        border-radius: 10px;
+        text-align: center;
+    }
+    .cls-350{
+        position: absolute;
+        top: 20%;
+        right: 10%;
+    }
+    .video-tutorial{
+        position: absolute;
+        top: 80%;
+        left: 0%;
+    }
+
+    .change-part{
+        flex-direction: column;
+        background-color:black;
+        width: 100%;
+    }
+    .change-image-section{
+        flex-direction: column;
+        width: 100%;
+        margin-left: 150px;
+    }
+
+    .running-section{
+        flex-direction: column;
+        width: 100%;
+        margin: 0px auto;
+    }
+    
+    .run{
+        display: block;
+        width: 100%;
+        
+        
+    }
+    .run-description{
+        margin-left: 0px;
+    }
+    .btn-join-club{
+        height: 50px;
+        width: 160px;
+    }
+    .btn-download{
+        margin-top: 20px;
+        margin-left: 0px;
+        height: 50px;
+        width: 160px;
+    }
+    .running-style{
+        flex-direction: column;
+        width: 90%;
+        margin-left: 20px;
+       
+    }
+    .bmi-calculator{
+        width: 80%;
+        justify-content: center;
+        margin: 30px 50px;
+    }
+    .bmi-title{
+        justify-content: center;
+        width: 100%;
+    }
+    .bmi-description{
+        width: 100%;
+    }
+
+    .bmi-calculator-card{
+        flex-direction: column;
+        padding: 25px;
+    }
+    .measurement-activity{
+        width: 215px;
+    }
+    
+    .calculate{
+        height: 50px;
+        width: 250px;
+    }
+
+    .mentor-profile{
+        display:block;
+        width: 80%;
+        align-items: center;
+     }
+
+     .mentor2{
+        position: absolute;
+        margin-top: 220px;
+        margin-left: 20px;
+        row-gap: 3px;
+        left: 115px;
+     }
+     .mentor3{
+        position: absolute;
+        margin-top: 170px;
+        margin-left: 20px;
+        row-gap: 3px;
+        left: 115px;
+     }
+     .mentor4{
+        position: absolute;
+        margin-top: 220px;
+        margin-left: 20px;
+        row-gap: 3px;
+        left: 115px;
+     }
+     .mentor5{
+        position: absolute;
+        margin-top: 220px;
+        margin-left: 20px;
+        row-gap: 3px;
+        left: 115px;
+     }
+     .mentor6{
+        position: absolute;
+        margin-top: 220px;
+        margin-left: 20px;
+        row-gap: 3px;
+        left: 115px;
+     }
+
+     .footer{
+        height:1200px;
+        width: auto;
+    }
+    .get-started{
+        flex-direction: column;
+        margin-left:0px;
+        height:700px;
+        width: 100%;
+        padding: 50px 0px;
+    }
+    .get-first{
+        padding-top: 200px;
+        /* width: 100%; */
+    }
+    .get-second{
+        width: 100%;
+        padding-top: 50px;
+    }
+    .footer-body{
+        flex-direction: column;
+        margin-left: 80px;
+    }
+
+
+}
+
+@media screen and (width>950px) {
+    
+}

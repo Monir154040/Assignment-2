@@ -1,0 +1,529 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+@import url('https://fonts.cdnfonts.com/css/inter');
+@import url('https://fonts.cdnfonts.com/css/miama');
+
+
+
+.inter{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:400;
+  font-size: 18px;
+  font-style: normal;
+  
+}
+
+.banner{
+    width: 100%;
+    background-color:black;
+}
+.navbar{
+    display: flex;
+    justify-content:space-between;
+    margin-left: 130px;
+
+}
+.hamburg-menu{
+    margin-left: 100px;
+    padding-top: 100px;
+    padding-right: 100px;
+    width: 20px;
+    color: white;
+    display: none;
+}
+.menu-item{
+    display: flex;
+    margin: 90px;
+    border: 1px solid grey;
+    border-radius: 25px;
+    align-items: center;
+    padding-bottom: 18px;
+    justify-content: space-around;
+    height: 30px;
+    width: 300px;
+}
+li a{
+    color: white;
+    text-decoration: none;
+    justify-content: space-around;
+    margin-top: 5px;
+    margin-left: 10px;
+    font-size: 1rem;
+}
+
+
+.btn-primary a{
+    background-color: #E6533C;
+    height: 25px;
+    padding: 13px;
+    color: white;
+    margin-left: 0px;
+    margin-top: 0px;
+    font-weight: 400;
+    font-size: 20px;
+    border: 25px;
+    list-style: none;
+    border-radius: 40px;
+        
+}
+.section-title{
+        height: 90px;
+        width: 100%;
+        margin: 100px auto;
+        padding-bottom: 50px;
+        padding-left: 120px;
+    }      
+.shape{
+    font-style:normal;
+    font-family:'Miama',sans-serif;
+    font-weight: 400;
+    font-size: 5rem;
+
+}
+.body-title{
+    color: white;
+    font-weight: 500;
+    font-size: 4rem;
+    width: 50%;
+}
+.body-description{
+    color: white;
+    width: 55%;
+    padding-top: 10px;
+    
+}
+
+.btn-join-club{
+    background-color: #E6533C;
+    height: 50px;
+    padding-top: 5px;
+    margin-top: 20px;
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+    border: 25px;
+    list-style: none;
+    border-radius: 20px;
+}
+.btn-download{
+    background-color: grey;
+    height: 50px;
+    padding-top: 5px;
+    margin-top: 20px;
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+    border: 25px;
+    list-style: none;
+    border-radius: 20px;   
+}
+
+
+.first-part{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.body-images-2{
+    padding-left: 90px;
+    padding-bottom: 50px;
+    width: 50%;
+    position: relative;
+}
+.workout-video{
+    height: 60px;
+    width:180px;
+    background-color: rgba(128, 128, 128, 0.295);
+    color: white;
+    padding: 10px 10px;
+    font-size: 1.2rem;
+    position: absolute;
+    top: 20%;
+    right: 5%;
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+.video-tutorial{
+    display: flex;
+    width:max-content;
+    height: 70px;
+    background-color: rgba(128, 128, 128, 0.295);
+    color: white;
+    padding: 15px 100px;
+    font-size: 1.2rem;
+    position: absolute;
+    top: 70%;
+    left: 0%;
+    border-radius: 10px;
+}
+
+.cls-350{
+    text-align: right;
+    position: absolute;
+    right: 10px;
+}
+
+.three-50{
+
+    font-weight: 700;
+    font-size: 2.5rem;
+    padding-right: 5px;
+}
+.circle{
+    background-color:red;
+    height: 15px;
+    padding: 20px;
+    border-radius: 100px;
+    position: absolute;
+    top: 27%;
+    left: 10px;
+}
+.change-part{
+    background-color:black;
+    width: 100%;
+    /* margin: 0px auto; */
+}
+.change-title{
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    color: white;
+    
+}
+.change-description,.mentor-advice{
+    text-align: center;
+    font-size: 1.5rem;
+    color:grey
+}
+.change-image-section{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    padding-bottom: 20px;
+    gap: 20px;
+}
+.img-round{
+    border: 1px solid grey;
+    border-radius: 100px;
+    color: white;
+}
+.img-description{
+    align-items: center;
+    color:gray;
+    font-size: 20px;
+}
+.box{
+    height: 80px;
+    width: 160px;
+    margin-left: 30px;
+    font-size: 14px;
+}
+.movement{
+    margin-left: 50px;
+}
+
+.running-section{
+    display: flex;
+    justify-content: space-between;
+    margin: 60px 150px 60px 150px;
+    padding-bottom: 30px;
+    background-color: rgba(48, 48, 48, 0.70);
+    border: 0px solid white;
+    border-radius: 20px;
+}
+.run{
+    color: white;
+    padding-left: 30px;
+    font-weight: 500;
+    width: 400px;
+    font-size: 2rem;
+}
+.running-style{
+    height: 350px;
+    width: 400px;
+    margin-top: 35px;
+    margin-right: 35px;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+.join-btn{
+    background-color: #E6533C;
+    height: 30px;
+    width: 130px;
+    display: none;
+    /* padding-bottom: 15px; */
+}
+
+.bmi-calculator{
+    color: white;
+    margin: 0px 300px;
+}
+.bmi-title{
+    text-align: left;
+    font-weight: 400;
+    font-size: 48px;
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+.bmi-description{
+    text-align: left;
+    font-size: 1.3rem;
+    color:grey
+}
+.bmi-calculator-card{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.10);
+    border: 0px solid rgb(97, 86, 86);
+    margin-bottom: 0px;
+}
+.bmi-calculator-chart,th,tr,td{
+    border: 1px solid grey;
+    border-collapse: collapse;
+    column-gap: 5px;
+    padding: 8px;
+    color: grey;
+}
+.theader{
+    color: white;
+}
+
+.measurement{
+    height: 30px;
+    width: 200px;
+    margin: 5px 0px;
+    padding-left: 10px;
+    color: white;
+    background-color:rgba(128, 128, 128, 0.521);
+    border-radius: 10px;
+    
+}
+
+.gender{
+    height: 33px;
+    width: 208px;
+    margin: 5px 0px;
+    background-color:grey;
+    border-radius: 10px;
+    
+}
+.measurement-activity{
+    height: 30px;
+    width: 420px;
+    margin: 5px 0px;
+    background-color:grey;
+    border-radius: 10px;
+    
+}
+
+#option{
+    font-weight: 500;
+}
+
+
+.calculate{
+    background-color: #E6533C;
+    height: 50px;
+    width: 150px;
+    padding-top: 5px;
+    margin: 40px 0px;
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+    border: 25px;
+    list-style: none;
+    border-radius: 20px;
+}
+
+.mentor-section{
+    background-color: black;
+    width: 100%;
+    height:782;
+    margin: 0px;
+    color: white;
+    text-align: center;
+}
+.mentor-title{
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    color: white;
+}
+.mentor-advice{
+    justify-content: center;
+    margin-left: 5px;
+    font-size: 1.5rem;
+}
+ .mentor-profile{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin: 0px auto;
+    width: 80%;
+    row-gap: 5px;
+    column-gap: 5px;
+    border: 0px solid white;
+    border-radius: 10px;
+    justify-content:space-around;
+    background-color: rgba(48, 48, 48, 0.70);
+ }
+
+ .mentor1{
+    position: absolute;
+    margin-top: 220px;
+    margin-left: 20px;
+    row-gap: 3px;
+    left: 170px;
+ }
+
+ .mentor2{
+    position: absolute;
+    margin-top: 220px;
+    margin-left: 370px;
+    row-gap: 3px;
+    left: 170px;
+ }
+ .mentor3{
+    position: absolute;
+    margin-top: 220px;
+    margin-left: 720px;
+    row-gap: 3px;
+    left: 170px;
+    color:black;
+ }
+
+ .mentor4{
+    position: absolute;
+    margin-top: 220px;
+    margin-left: 20px;
+    row-gap: 3px;
+    left: 170px;
+ }
+ .mentor5{
+    position: absolute;
+    margin-top: 220px;
+    margin-left: 370px;
+    row-gap: 3px;
+    left: 170px;
+ }
+ .mentor6{
+    position: absolute;
+    margin-top: 220px;
+    margin-left: 720px;
+    row-gap: 3px;
+    left: 170px;
+ }
+.title{
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+}
+.sub-title{
+    margin-top: 0px;
+    font-size: 14px;
+    color:aliceblue;
+}
+.img{
+    border-radius: 10px;
+}
+ .propertise{
+    align-items: center;
+    width: 330px;
+    padding: 5px;
+    margin: 5px;
+   
+ }
+
+.footer{
+    background-color:rgba(73, 72, 72,0.4);
+    height: 500px;
+    width: 100%;
+    margin-top: 80px;
+    justify-content:space-around;
+}
+
+.footer-body{
+    font-family: 'Inter', sans-serif;
+    /* display: flex; */
+    margin-top: 50px;
+    margin-bottom: 160px;
+    margin-left: 190px;
+    margin-right: 190px;
+}
+
+
+.footer-left{
+    height: 50px;
+    width: 450px;
+    padding-top: 50px;
+}
+
+.fitness{
+    color: #E6533C;
+    font-weight: 600;
+    font-size: 3rem;
+    font-style: italic;
+    margin-top: 80px;  
+}
+.footer-fitness{
+    margin-left: 0px;
+    color: #E6533C;
+    font-weight: 600;
+    font-size: 3rem;
+    font-style: italic;
+    margin-top: 80px; 
+}
+
+.footer-description{
+    height: 70px;
+    width: 300px;
+}
+
+.footer-description{
+    font-size: 1rem;
+    color: lightgrey;
+    text-wrap: wrap;
+}
+.get-started{
+    display: flex;
+    list-style: none;
+    margin-top: 10px;
+    margin-bottom: 130px;
+    margin-left:400px;
+    margin-right: 10px;
+    justify-content: space-between;
+    column-gap: 160px;
+    color: lightgrey;
+}
+.get-title{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 2rem;
+    color: white;
+    font-weight: 800;
+    font-size: 2rem;
+}
+.get-first{
+    justify-items: left;
+    height: 180px;
+    width: 250px;
+}
+.get-second{
+    justify-items: right;
+    height: 180px;
+    width: 250px;
+}
+.item{
+    padding: 10px;
+}
+
+.copyright{
+    text-align: center;
+    font-size: 1rem;
+    color:lightgray;
+    margin-top: 30px;
+}
